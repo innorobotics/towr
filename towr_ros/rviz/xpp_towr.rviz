@@ -149,6 +149,22 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+      Name: A1
+      Robot Description: /a1_rviz_urdf_robot_description
+      TF Prefix: a1
+      Update Interval: 0
+      Value: false
+      Visual Enabled: true
+    - Alpha: 0.5
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: false
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
       Name: ANYmal (proprietary)
       Robot Description: /anymal_rviz_urdf_robot_description
       TF Prefix: anymal_des
@@ -176,6 +192,7 @@ Visualization Manager:
       Single click: true
       Topic: /clicked_point
   Value: true
+
   Views:
     Current:
       Class: rviz/ThirdPersonFollower
